@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class CartaoCredito {
+public class Cartao {
     private double limite;
     private double saldo;
     public List<Compras> compras;
 
-    public CartaoCredito(double limite) {
+    public Cartao(double limite) {
         this.limite = limite;
         this.saldo = limite;
         this.compras = new ArrayList<>();

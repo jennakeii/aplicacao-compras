@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Informe o limite do cartão: R$ ");
         double limite = scanner.nextDouble();
 
-        CartaoCredito cartao = new CartaoCredito(limite);
+        Cartao cartao = new Cartao(limite);
 
         int sair = 1;
         while (sair != 0){
